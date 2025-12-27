@@ -43,4 +43,11 @@ function playRound(humanChoice, computerChoice) {
         computerScore = computerScore + 1;
         console.log(`You Lose! ${computerChoice} beats ${humanChoice}`)
     }
+    console.log(humanChoice)
+    console.log(computerChoice)
 }
+
+console.log(playRound(getComputerChoice(), getHumanChoice()))
+
+console.log(computerScore)
+console.log(humanScore)
